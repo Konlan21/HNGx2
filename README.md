@@ -17,4 +17,4 @@ Before you begin, make sure you have the following prerequisites installed:
 1. Clone this repository:
 
    ```shell
-   git clone https://github.com/Konlan21/HNGx.git
+   git clone https://github.com/Konlan21/HNGx2.git
