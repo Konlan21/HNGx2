@@ -25,7 +25,10 @@ Before you begin, make sure you have the following prerequisites installed:
 ### Install project dependencies
 - pip install -r requirements.txt
 
+
 ### Create a Django database and run the migrations
+- Configure database settings in settings.py file to use your preferred database
+
 - python manage.py migrate
 
 ### Start the development server 
