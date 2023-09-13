@@ -1,4 +1,4 @@
-hi# HGNx API Project 2
+### HNGx API Project 2
 
 This is a sample README.md file for a Django REST framework project. It provides instructions on setting up, running, and using the API.
 
@@ -20,7 +20,7 @@ Before you begin, make sure you have the following prerequisites installed:
    git clone https://github.com/Konlan21/HNGx2.git
 
 ### Navigate to the project directory:
-- cd your-repo-name
+- cd HNGx2
  
 ### Install project dependencies
 - pip install -r requirements.txt
