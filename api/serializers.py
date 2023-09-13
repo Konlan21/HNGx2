@@ -9,7 +9,12 @@ class PersonSerializer(serializers.ModelSerializer):
         fields = ['id', 'name']
 
     
+    # def validate_name(self, value):
+    #     if not value.isalpha():
+    #         raise serializers.ValidationError("Only string values are allowed.")
+    #     return value
+    
     def validate_name(self, value):
-        if not value.isalpha():
-            raise serializers.ValidationError("Only string values are allowed.")
+        if not all(char.isalpha() or char.isspace() for char in value):
+            raise serializers.ValidationError("Only string values with spaces are allowed.")
         return value
